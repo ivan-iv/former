@@ -88,7 +88,6 @@
                                           (when-not (has-errors? (:errors @a))
                                             (on-submit (:values @a)))))})]))))
 
-;; Total CLOC: 70
 ;; Example
 
 (def only-digit {:msg "Allowed only numbers"
